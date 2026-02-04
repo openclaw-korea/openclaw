@@ -1,7 +1,7 @@
 # ko-KR 번역 현황
 
 총 문서: **298개**
-번역 완료: **20개** (6.7%)
+번역 완료: **23개** (7.7%)
 마지막 업데이트: 2026-02-04
 
 ## 우선순위 1: 핵심 문서 (필수) ✅
@@ -55,10 +55,10 @@
 ## 우선순위 3: 게이트웨이 & 설정
 
 ### 게이트웨이
-- [ ] `gateway/index.md` - 게이트웨이 개요
+- [x] `gateway/index.md` - 게이트웨이 개요
 - [ ] `gateway/configuration.md` - 설정
 - [ ] `gateway/configuration-examples.md` - 설정 예제
-- [ ] `gateway/authentication.md` - 인증
+- [x] `gateway/authentication.md` - 인증
 - [ ] `gateway/security/index.md` - 보안
 - [ ] `gateway/sandboxing.md` - 샌드박싱
 - [ ] `gateway/remote.md` - 원격 접속
@@ -66,7 +66,7 @@
 - [ ] `gateway/local-models.md` - 로컬 모델
 - [ ] `gateway/logging.md` - 로깅
 - [ ] `gateway/health.md` - 상태 확인
-- [ ] `gateway/doctor.md` - 진단
+- [x] `gateway/doctor.md` - 진단
 - [ ] `gateway/troubleshooting.md` - 문제 해결
 - [ ] `gateway/background-process.md` - 백그라운드 프로세스
 - [ ] `gateway/discovery.md` - 디스커버리
