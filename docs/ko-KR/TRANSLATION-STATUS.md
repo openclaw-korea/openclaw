@@ -1,38 +1,38 @@
 # ko-KR 번역 현황
 
 총 문서: **298개**
-번역 완료: **3개** (1.0%)
+번역 완료: **20개** (6.7%)
 마지막 업데이트: 2026-02-04
 
-## 우선순위 1: 핵심 문서 (필수)
+## 우선순위 1: 핵심 문서 (필수) ✅
 
-### 개요 & 시작하기
+### 개요 & 시작하기 ✅
 - [x] `index.md` - 랜딩 페이지
 - [x] `install/index.md` - 설치 가이드
 - [x] `start/getting-started.md` - 시작하기
-- [ ] `start/wizard.md` - 온보딩 마법사
-- [ ] `start/setup.md` - 설정
-- [ ] `start/pairing.md` - 페어링
-- [ ] `start/onboarding.md` - 온보딩
+- [x] `start/wizard.md` - 온보딩 마법사
+- [x] `start/setup.md` - 설정
+- [x] `start/pairing.md` - 페어링
+- [x] `start/onboarding.md` - 온보딩
 
-### 핵심 개념
-- [ ] `concepts/architecture.md` - 아키텍처
-- [ ] `concepts/agent.md` - 에이전트
-- [ ] `concepts/agent-loop.md` - 에이전트 루프
-- [ ] `concepts/session.md` - 세션
-- [ ] `concepts/context.md` - 컨텍스트
-- [ ] `concepts/system-prompt.md` - 시스템 프롬프트
+### 핵심 개념 ✅
+- [x] `concepts/architecture.md` - 아키텍처
+- [x] `concepts/agent.md` - 에이전트
+- [x] `concepts/agent-loop.md` - 에이전트 루프
+- [x] `concepts/session.md` - 세션
+- [x] `concepts/context.md` - 컨텍스트
+- [x] `concepts/system-prompt.md` - 시스템 프롬프트
 
 ## 우선순위 2: 채널 연동 (자주 사용)
 
-### 주요 채널
-- [ ] `channels/index.md` - 채널 개요
-- [ ] `channels/whatsapp.md` - WhatsApp
-- [ ] `channels/telegram.md` - Telegram
-- [ ] `channels/discord.md` - Discord
-- [ ] `channels/slack.md` - Slack
-- [ ] `channels/imessage.md` - iMessage
-- [ ] `channels/signal.md` - Signal
+### 주요 채널 ✅
+- [x] `channels/index.md` - 채널 개요
+- [x] `channels/whatsapp.md` - WhatsApp
+- [x] `channels/telegram.md` - Telegram
+- [x] `channels/discord.md` - Discord
+- [x] `channels/slack.md` - Slack
+- [x] `channels/imessage.md` - iMessage
+- [x] `channels/signal.md` - Signal
 
 ### 기타 채널
 - [ ] `channels/mattermost.md` - Mattermost
