@@ -1595,6 +1595,14 @@
               {
                 "group": "개요",
                 "pages": ["ko-KR/index"]
+              },
+              {
+                "group": "설치",
+                "pages": ["ko-KR/install/index"]
+              },
+              {
+                "group": "설정",
+                "pages": ["ko-KR/start/getting-started"]
               }
             ]
           }
