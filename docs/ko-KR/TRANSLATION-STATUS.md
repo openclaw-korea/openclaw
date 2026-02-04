@@ -1,8 +1,8 @@
 # ko-KR 번역 현황
 
 총 문서: **298개**
-번역 완료: **23개** (7.7%)
-마지막 업데이트: 2026-02-04
+번역 완료: **26개** (8.7%)
+마지막 업데이트: 2026-02-05
 
 ## 우선순위 1: 핵심 문서 (필수) ✅
 
@@ -63,9 +63,9 @@
 - [ ] `gateway/sandboxing.md` - 샌드박싱
 - [ ] `gateway/remote.md` - 원격 접속
 - [ ] `gateway/tailscale.md` - Tailscale
-- [ ] `gateway/local-models.md` - 로컬 모델
-- [ ] `gateway/logging.md` - 로깅
-- [ ] `gateway/health.md` - 상태 확인
+- [x] `gateway/local-models.md` - 로컬 모델
+- [x] `gateway/logging.md` - 로깅
+- [x] `gateway/health.md` - 상태 확인
 - [x] `gateway/doctor.md` - 진단
 - [ ] `gateway/troubleshooting.md` - 문제 해결
 - [ ] `gateway/background-process.md` - 백그라운드 프로세스
