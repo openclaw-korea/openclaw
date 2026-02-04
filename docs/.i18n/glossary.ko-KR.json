@@ -1,0 +1,406 @@
+[
+  {
+    "source": "OpenClaw",
+    "target": "OpenClaw"
+  },
+  {
+    "source": "Gateway",
+    "target": "게이트웨이"
+  },
+  {
+    "source": "Pi",
+    "target": "Pi"
+  },
+  {
+    "source": "Skills",
+    "target": "스킬"
+  },
+  {
+    "source": "Skills config",
+    "target": "스킬 설정"
+  },
+  {
+    "source": "Skills Config",
+    "target": "스킬 설정"
+  },
+  {
+    "source": "local loopback",
+    "target": "로컬 루프백"
+  },
+  {
+    "source": "Tailscale",
+    "target": "Tailscale"
+  },
+  {
+    "source": "Getting Started",
+    "target": "시작하기"
+  },
+  {
+    "source": "Getting started",
+    "target": "시작하기"
+  },
+  {
+    "source": "DMs",
+    "target": "DM"
+  },
+  {
+    "source": "DM",
+    "target": "DM"
+  },
+  {
+    "source": "sandbox",
+    "target": "샌드박스"
+  },
+  {
+    "source": "Sandbox",
+    "target": "샌드박스"
+  },
+  {
+    "source": "sandboxing",
+    "target": "샌드박싱"
+  },
+  {
+    "source": "Sandboxing",
+    "target": "샌드박싱"
+  },
+  {
+    "source": "sandboxed",
+    "target": "샌드박스 격리"
+  },
+  {
+    "source": "Sandboxed",
+    "target": "샌드박스 격리"
+  },
+  {
+    "source": "Sandboxing note",
+    "target": "샌드박싱 참고사항"
+  },
+  {
+    "source": "Companion apps",
+    "target": "컴패니언 앱"
+  },
+  {
+    "source": "expected keys",
+    "target": "필요한 키"
+  },
+  {
+    "source": "block streaming",
+    "target": "블록 스트리밍"
+  },
+  {
+    "source": "Block streaming",
+    "target": "블록 스트리밍"
+  },
+  {
+    "source": "Discovery + transports",
+    "target": "디스커버리 + 전송"
+  },
+  {
+    "source": "Discovery",
+    "target": "디스커버리"
+  },
+  {
+    "source": "Network model",
+    "target": "네트워크 모델"
+  },
+  {
+    "source": "for full details",
+    "target": "자세한 내용"
+  },
+  {
+    "source": "First 60 seconds",
+    "target": "처음 60초"
+  },
+  {
+    "source": "Auth: where it lives (important)",
+    "target": "인증: 저장 위치 (중요)"
+  },
+  {
+    "source": "agent",
+    "target": "에이전트"
+  },
+  {
+    "source": "Agent",
+    "target": "에이전트"
+  },
+  {
+    "source": "channel",
+    "target": "채널"
+  },
+  {
+    "source": "Channel",
+    "target": "채널"
+  },
+  {
+    "source": "session",
+    "target": "세션"
+  },
+  {
+    "source": "Session",
+    "target": "세션"
+  },
+  {
+    "source": "provider",
+    "target": "프로바이더"
+  },
+  {
+    "source": "Provider",
+    "target": "프로바이더"
+  },
+  {
+    "source": "model",
+    "target": "모델"
+  },
+  {
+    "source": "Model",
+    "target": "모델"
+  },
+  {
+    "source": "tool",
+    "target": "도구"
+  },
+  {
+    "source": "Tool",
+    "target": "도구"
+  },
+  {
+    "source": "CLI",
+    "target": "CLI"
+  },
+  {
+    "source": "install sanity",
+    "target": "설치 검증"
+  },
+  {
+    "source": "get unstuck",
+    "target": "문제 해결"
+  },
+  {
+    "source": "troubleshooting",
+    "target": "문제 해결"
+  },
+  {
+    "source": "Troubleshooting",
+    "target": "문제 해결"
+  },
+  {
+    "source": "FAQ",
+    "target": "FAQ"
+  },
+  {
+    "source": "onboarding",
+    "target": "온보딩"
+  },
+  {
+    "source": "Onboarding",
+    "target": "온보딩"
+  },
+  {
+    "source": "wizard",
+    "target": "마법사"
+  },
+  {
+    "source": "Wizard",
+    "target": "마법사"
+  },
+  {
+    "source": "environment variables",
+    "target": "환경 변수"
+  },
+  {
+    "source": "environment variable",
+    "target": "환경 변수"
+  },
+  {
+    "source": "env vars",
+    "target": "환경 변수"
+  },
+  {
+    "source": "env var",
+    "target": "환경 변수"
+  },
+  {
+    "source": "configuration",
+    "target": "설정"
+  },
+  {
+    "source": "Configuration",
+    "target": "설정"
+  },
+  {
+    "source": "config",
+    "target": "설정"
+  },
+  {
+    "source": "Config",
+    "target": "설정"
+  },
+  {
+    "source": "Installation",
+    "target": "설치"
+  },
+  {
+    "source": "installation",
+    "target": "설치"
+  },
+  {
+    "source": "Install",
+    "target": "설치"
+  },
+  {
+    "source": "install",
+    "target": "설치"
+  },
+  {
+    "source": "Quickstart",
+    "target": "빠른 시작"
+  },
+  {
+    "source": "quickstart",
+    "target": "빠른 시작"
+  },
+  {
+    "source": "Overview",
+    "target": "개요"
+  },
+  {
+    "source": "overview",
+    "target": "개요"
+  },
+  {
+    "source": "Concepts",
+    "target": "개념"
+  },
+  {
+    "source": "concepts",
+    "target": "개념"
+  },
+  {
+    "source": "Channels",
+    "target": "채널"
+  },
+  {
+    "source": "channels",
+    "target": "채널"
+  },
+  {
+    "source": "Platforms",
+    "target": "플랫폼"
+  },
+  {
+    "source": "platforms",
+    "target": "플랫폼"
+  },
+  {
+    "source": "Reference",
+    "target": "참조"
+  },
+  {
+    "source": "reference",
+    "target": "참조"
+  },
+  {
+    "source": "Automation",
+    "target": "자동화"
+  },
+  {
+    "source": "automation",
+    "target": "자동화"
+  },
+  {
+    "source": "Hooks",
+    "target": "훅"
+  },
+  {
+    "source": "hooks",
+    "target": "훅"
+  },
+  {
+    "source": "Experiments",
+    "target": "실험 기능"
+  },
+  {
+    "source": "experiments",
+    "target": "실험 기능"
+  },
+  {
+    "source": "pairing",
+    "target": "페어링"
+  },
+  {
+    "source": "Pairing",
+    "target": "페어링"
+  },
+  {
+    "source": "setup",
+    "target": "설정"
+  },
+  {
+    "source": "Setup",
+    "target": "설정"
+  },
+  {
+    "source": "token",
+    "target": "토큰"
+  },
+  {
+    "source": "Token",
+    "target": "토큰"
+  },
+  {
+    "source": "API key",
+    "target": "API 키"
+  },
+  {
+    "source": "API keys",
+    "target": "API 키"
+  },
+  {
+    "source": "credentials",
+    "target": "자격 증명"
+  },
+  {
+    "source": "Credentials",
+    "target": "자격 증명"
+  },
+  {
+    "source": "debugging",
+    "target": "디버깅"
+  },
+  {
+    "source": "Debugging",
+    "target": "디버깅"
+  },
+  {
+    "source": "logs",
+    "target": "로그"
+  },
+  {
+    "source": "Logs",
+    "target": "로그"
+  },
+  {
+    "source": "memory",
+    "target": "메모리"
+  },
+  {
+    "source": "Memory",
+    "target": "메모리"
+  },
+  {
+    "source": "context",
+    "target": "컨텍스트"
+  },
+  {
+    "source": "Context",
+    "target": "컨텍스트"
+  },
+  {
+    "source": "streaming",
+    "target": "스트리밍"
+  },
+  {
+    "source": "Streaming",
+    "target": "스트리밍"
+  }
+]

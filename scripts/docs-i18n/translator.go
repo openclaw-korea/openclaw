@@ -246,14 +246,18 @@ func translationPrompt(srcLang, tgtLang string, glossary []GlossaryEntry) string
 	if strings.EqualFold(tgtLang, "zh-CN") {
 		tgtLabel = "Simplified Chinese"
 	}
+	if strings.EqualFold(tgtLang, "ko-KR") {
+		tgtLabel = "Korean"
+	}
 	glossaryBlock := buildGlossaryPrompt(glossary)
+	langRules := languageSpecificRules(tgtLang)
 	return strings.TrimSpace(fmt.Sprintf(`You are a translation function, not a chat assistant.
 Translate from %s to %s.
 
 Rules:
 - Output ONLY the translated text. No preamble, no questions, no commentary.
 - Translate all English prose; do not leave English unless it is code, a URL, or a product name.
-- All prose must be Chinese. If any English sentence remains outside code/URLs/product names, it is wrong.
+- All prose must be in the target language. If any English sentence remains outside code/URLs/product names, it is wrong.
 - If the input contains <frontmatter> and <body> tags, keep them exactly and output exactly one of each.
 - Translate only the contents inside those tags.
 - Preserve YAML structure inside <frontmatter>; translate only values.
@@ -265,19 +269,36 @@ Rules:
 - Do not alter URLs or anchors.
 - Preserve placeholders exactly: __OC_I18N_####__.
 - Do not remove, reorder, or summarize content.
-- Use fluent, idiomatic technical Chinese; avoid slang or jokes.
-- Use neutral documentation tone; prefer “你/你的”, avoid “您/您的”.
-- Insert a space between Latin characters and CJK text (W3C CLREQ), e.g., “Gateway 网关”, “Skills 配置”.
-- Use Chinese quotation marks “ and ” for Chinese prose; keep ASCII quotes inside code spans/blocks or literal CLI/keys.
+- Use fluent, idiomatic technical %s; avoid slang or jokes.
 - Keep product names in English: OpenClaw, Pi, WhatsApp, Telegram, Discord, iMessage, Slack, Microsoft Teams, Google Chat, Signal.
-- For the OpenClaw Gateway, use “Gateway 网关”.
 - Keep these terms in English: Skills, local loopback, Tailscale.
 - Never output an empty response; if unsure, return the source text unchanged.
 
 %s
 
+%s
+
 If the input is empty, output empty.
-If the input contains only placeholders, output it unchanged.`, srcLabel, tgtLabel, glossaryBlock))
+If the input contains only placeholders, output it unchanged.`, srcLabel, tgtLabel, tgtLabel, langRules, glossaryBlock))
+}
+
+func languageSpecificRules(tgtLang string) string {
+	if strings.EqualFold(tgtLang, "zh-CN") {
+		return `Chinese-specific rules:
+- Use neutral documentation tone; prefer "你/你的", avoid "您/您的".
+- Insert a space between Latin characters and CJK text (W3C CLREQ), e.g., "Gateway 网关", "Skills 配置".
+- Use Chinese quotation marks " and " for Chinese prose; keep ASCII quotes inside code spans/blocks or literal CLI/keys.
+- For the OpenClaw Gateway, use "Gateway 网关".`
+	}
+	if strings.EqualFold(tgtLang, "ko-KR") {
+		return `Korean-specific rules:
+- Use polite formal style (합니다/입니다/하세요) for documentation.
+- No space between Latin characters and Korean text, e.g., "Gateway를", "Skills에서".
+- Use ASCII quotes ("") for Korean prose; keep ASCII quotes inside code spans/blocks.
+- Use common Korean loanword conventions: sandbox -> 샌드박스, agent -> 에이전트.
+- For the OpenClaw Gateway, use "게이트웨이".`
+	}
+	return ""
 }
 
 func buildGlossaryPrompt(glossary []GlossaryEntry) string {

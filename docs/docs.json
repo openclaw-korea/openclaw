@@ -16,6 +16,10 @@
       "url": "/zh-CN"
     },
     {
+      "name": "한국어",
+      "url": "/ko-KR"
+    },
+    {
       "name": "GitHub",
       "url": "https://github.com/openclaw/openclaw"
     },
@@ -1577,6 +1581,20 @@
                   "zh-CN/scripts",
                   "zh-CN/reference/session-management-compaction"
                 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "language": "ko",
+        "tabs": [
+          {
+            "tab": "시작하기",
+            "groups": [
+              {
+                "group": "개요",
+                "pages": ["ko-KR/index"]
               }
             ]
           }
