@@ -1,7 +1,7 @@
 # ko-KR 번역 현황
 
 총 문서: **298개**
-번역 완료: **160개** (53.7%)
+번역 완료: **178개** (59.7%)
 마지막 업데이트: 2026-02-05
 
 ## 우선순위 1: 핵심 문서 (필수) ✅
@@ -208,35 +208,35 @@
 - [x] `install/migrating.md` - 마이그레이션
 - [x] `install/development-channels.md` - 개발 채널
 
-## 우선순위 10: 기타
+## 우선순위 10: 기타 (진행 중)
 
-### 자동화
-- [ ] `automation/cron-jobs.md` - Cron 작업
-- [ ] `automation/webhook.md` - 웹훅
-- [ ] `automation/poll.md` - 폴링
-- [ ] `automation/auth-monitoring.md` - 인증 모니터링
-- [ ] `automation/gmail-pubsub.md` - Gmail PubSub
+### 자동화 ✅
+- [x] `automation/cron-jobs.md` - Cron 작업
+- [x] `automation/webhook.md` - 웹훅
+- [x] `automation/poll.md` - 폴링
+- [x] `automation/auth-monitoring.md` - 인증 모니터링
+- [x] `automation/gmail-pubsub.md` - Gmail PubSub
 
-### 노드
-- [ ] `nodes/index.md` - 노드 개요
-- [ ] `nodes/audio.md` - 오디오
-- [ ] `nodes/camera.md` - 카메라
-- [ ] `nodes/images.md` - 이미지
-- [ ] `nodes/voicewake.md` - 음성 웨이크
-- [ ] `nodes/talk.md` - 토크
+### 노드 ✅
+- [x] `nodes/index.md` - 노드 개요
+- [x] `nodes/audio.md` - 오디오
+- [x] `nodes/camera.md` - 카메라
+- [x] `nodes/images.md` - 이미지
+- [x] `nodes/voicewake.md` - 음성 웨이크
+- [x] `nodes/talk.md` - 토크
 
-### 웹
-- [ ] `web/index.md` - 웹 개요
-- [ ] `web/dashboard.md` - 대시보드
-- [ ] `web/control-ui.md` - Control UI
-- [ ] `web/webchat.md` - 웹챗
+### 웹 ✅
+- [x] `web/index.md` - 웹 개요
+- [x] `web/dashboard.md` - 대시보드
+- [x] `web/control-ui.md` - Control UI
+- [x] `web/webchat.md` - 웹챗
 
-### 도움말
-- [ ] `help/index.md` - 도움말 개요
-- [ ] `help/faq.md` - FAQ
-- [ ] `help/troubleshooting.md` - 문제 해결
+### 도움말 ✅
+- [x] `help/index.md` - 도움말 개요
+- [x] `help/faq.md` - FAQ
+- [x] `help/troubleshooting.md` - 문제 해결
 
-### 기타 문서
+### 기타 문서 (일부 완료)
 - [ ] `hooks.md` - 훅
 - [ ] `environment.md` - 환경
 - [ ] `debugging.md` - 디버깅
