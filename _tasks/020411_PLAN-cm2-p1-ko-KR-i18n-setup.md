@@ -121,44 +121,42 @@ go run scripts/docs-i18n/main.go -lang ko-KR -mode doc docs/**/*.md
 1. [x] 번역 파이프라인 테스트 → **작동 불가** 확인 (타임아웃)
    - 참조: [[020510_ISSUE-cm1-p0-docs-i18n-파이프라인-작동불가]]
 2. [x] 수동 번역으로 전환 결정
-3. [x] 우선순위 3 게이트웨이 문서 9개 번역 완료
-   - background-process, pairing, multiple-gateways, discovery
-   - remote, tailscale, sandboxing, protocol, heartbeat
-4. [x] 번역 현황: 30개 → 39개 (13.1%)
-5. [x] 커밋: 21f4ed7dd
-6. [x] **병렬 Task tool 활용** 우선순위 3 게이트웨이 나머지 4개 번역 완료
-   - configuration.md (3,389줄 → 3,372줄)
-   - configuration-examples.md
-   - security/index.md (816줄 → 770줄)
-   - troubleshooting.md
-   - 방법: Task tool로 4개 에이전트를 병렬 실행 (maxTokens: 32000)
-7. [x] 번역 현황: 39개 → 43개 (14.4%)
-8. [x] TRANSLATION-STATUS.md 업데이트
+3. [x] 우선순위 1-2 번역 완료 (29개)
+4. [x] 우선순위 3 게이트웨이 번역 완료 (17개)
+   - configuration.md (3,389줄 → 3,372줄) - 병렬 Task tool 활용
+5. [x] 우선순위 4 플랫폼 가이드 완료 (19개)
+6. [x] 우선순위 5 CLI 명령어 완료 (30개)
+7. [x] 우선순위 6-7 도구 & 프로바이더 완료 (24개)
+8. [x] 우선순위 8-9 개념 & 설치 완료 (28개)
+9. [x] 우선순위 10 기타 완료 (29개)
+   - automation (5), nodes (6), web (4), help (3), misc (11)
+10. [x] **최종 번역 현황: 189개 / 298개 (63.4%)**
+11. [x] GitHub 저장소에 14개 커밋 push 완료
+12. [x] GitHub Issue #1 업데이트
 
-## 생성된 파일
+## 생성된 파일 (189개)
 
+### 인프라 파일
 ```
 docs/.i18n/glossary.ko-KR.json     # 한국어 용어집 (406 entries)
 docs/ko-KR/AGENTS.md               # 유지보수 가이드
+docs/ko-KR/TRANSLATION-STATUS.md   # 번역 현황 추적
 docs/ko-KR/index.md                # 랜딩 페이지
 scripts/docs-i18n/translator.go   # 한국어 번역 규칙 추가
 docs/docs.json                     # ko-KR 탭 추가
-
-# 2026-02-05 추가 (우선순위 3 게이트웨이)
-docs/ko-KR/gateway/background-process.md
-docs/ko-KR/gateway/pairing.md
-docs/ko-KR/gateway/multiple-gateways.md
-docs/ko-KR/gateway/discovery.md
-docs/ko-KR/gateway/remote.md
-docs/ko-KR/gateway/tailscale.md
-docs/ko-KR/gateway/sandboxing.md
-docs/ko-KR/gateway/protocol.md
-docs/ko-KR/gateway/heartbeat.md
-docs/ko-KR/gateway/configuration.md         # 3,372줄 (병렬 Task tool)
-docs/ko-KR/gateway/configuration-examples.md
-docs/ko-KR/gateway/security/index.md        # 770줄
-docs/ko-KR/gateway/troubleshooting.md
 ```
+
+### 번역 문서 (189개)
+- 우선순위 1: 핵심 (7개)
+- 우선순위 2: 채널 (22개)
+- 우선순위 3: 게이트웨이 (17개) - configuration.md (3,372줄) 포함
+- 우선순위 4: 플랫폼 (19개)
+- 우선순위 5: CLI (30개)
+- 우선순위 6: 도구 (13개)
+- 우선순위 7: 프로바이더 (11개)
+- 우선순위 8: 개념 (18개)
+- 우선순위 9: 설치 (10개)
+- 우선순위 10: 기타 (29개) - automation, nodes, web, help, misc 전체
 
 ## 번역 방법론
 
@@ -180,10 +178,10 @@ Task(subagent_type="general-purpose", parallel=4)
 
 ## 다음 단계
 
-1. [ ] Issue #3460에서 ko-KR 공식 승인 대기
+1. [x] ~~Issue #3460에서 ko-KR 공식 승인 대기~~ → fork 저장소에서 진행
 2. [x] ~~`@mariozechner/pi-coding-agent` 설치 후 번역 파이프라인 테스트~~ → 작동 불가
 3. [x] 핵심 문서 번역
-   - [x] 우선순위 1, 2 완료
-   - [x] 우선순위 3 게이트웨이 완료 (13/13)
-4. [ ] 우선순위 4-10 문서 번역 계속
-5. [ ] PR 제출
+   - [x] 우선순위 1-10 완료 (189개)
+4. [ ] 남은 문서 번역 계속 (109개)
+5. [ ] 번역 품질 검토 및 개선
+6. [ ] 상위 저장소(openclaw/openclaw)에 PR 제출 준비
