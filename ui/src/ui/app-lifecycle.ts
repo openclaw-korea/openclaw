@@ -1,4 +1,5 @@
 import type { Tab } from "./navigation.ts";
+import { subscribeLocale } from "../i18n/index.js";
 import { connectGateway } from "./app-gateway.ts";
 import {
   startLogsPolling,
@@ -31,6 +32,8 @@ type LifecycleHost = {
   logsEntries: unknown[];
   popStateHandler: () => void;
   topbarObserver: ResizeObserver | null;
+  localeUnsubscribe?: () => void;
+  requestUpdate: () => void;
 };
 
 export function handleConnected(host: LifecycleHost) {
@@ -42,6 +45,10 @@ export function handleConnected(host: LifecycleHost) {
   window.addEventListener("popstate", host.popStateHandler);
   connectGateway(host as unknown as Parameters<typeof connectGateway>[0]);
   startNodesPolling(host as unknown as Parameters<typeof startNodesPolling>[0]);
+  // Subscribe to locale changes to re-render UI when language changes
+  host.localeUnsubscribe = subscribeLocale(() => {
+    host.requestUpdate();
+  });
   if (host.tab === "logs") {
     startLogsPolling(host as unknown as Parameters<typeof startLogsPolling>[0]);
   }
@@ -60,6 +67,7 @@ export function handleDisconnected(host: LifecycleHost) {
   stopLogsPolling(host as unknown as Parameters<typeof stopLogsPolling>[0]);
   stopDebugPolling(host as unknown as Parameters<typeof stopDebugPolling>[0]);
   detachThemeListener(host as unknown as Parameters<typeof detachThemeListener>[0]);
+  host.localeUnsubscribe?.();
   host.topbarObserver?.disconnect();
   host.topbarObserver = null;
 }
