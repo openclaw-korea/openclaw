@@ -1,7 +1,7 @@
 # ko-KR 번역 현황
 
 총 문서: **298개**
-번역 완료: **43개** (14.4%)
+번역 완료: **62개** (20.8%)
 마지막 업데이트: 2026-02-05
 
 ## 우선순위 1: 핵심 문서 (필수) ✅
@@ -75,36 +75,36 @@
 - [x] `gateway/protocol.md` - 프로토콜
 - [x] `gateway/multiple-gateways.md` - 다중 게이트웨이
 
-## 우선순위 4: 플랫폼별 가이드
+## 우선순위 4: 플랫폼별 가이드 ✅
 
-### 플랫폼
+### 플랫폼 ✅
 - [x] `platforms/index.md` - 플랫폼 개요
 - [x] `platforms/macos.md` - macOS
 - [x] `platforms/linux.md` - Linux
 - [x] `platforms/windows.md` - Windows
-- [ ] `platforms/android.md` - Android
-- [ ] `platforms/ios.md` - iOS
-- [ ] `platforms/raspberry-pi.md` - Raspberry Pi
+- [x] `platforms/android.md` - Android
+- [x] `platforms/ios.md` - iOS
+- [x] `platforms/raspberry-pi.md` - Raspberry Pi
 
-### macOS 세부
-- [ ] `platforms/mac/bundled-gateway.md`
-- [ ] `platforms/mac/canvas.md`
-- [ ] `platforms/mac/dev-setup.md`
-- [ ] `platforms/mac/health.md`
-- [ ] `platforms/mac/logging.md`
-- [ ] `platforms/mac/menu-bar.md`
-- [ ] `platforms/mac/permissions.md`
-- [ ] `platforms/mac/skills.md`
-- [ ] `platforms/mac/voicewake.md`
-- [ ] `platforms/mac/webchat.md`
+### macOS 세부 ✅
+- [x] `platforms/mac/bundled-gateway.md`
+- [x] `platforms/mac/canvas.md`
+- [x] `platforms/mac/dev-setup.md`
+- [x] `platforms/mac/health.md`
+- [x] `platforms/mac/logging.md`
+- [x] `platforms/mac/menu-bar.md`
+- [x] `platforms/mac/permissions.md`
+- [x] `platforms/mac/skills.md`
+- [x] `platforms/mac/voicewake.md`
+- [x] `platforms/mac/webchat.md`
 
-### 클라우드 플랫폼
-- [ ] `platforms/digitalocean.md`
-- [ ] `platforms/fly.md`
-- [ ] `platforms/gcp.md`
-- [ ] `platforms/hetzner.md`
-- [ ] `platforms/oracle.md`
-- [ ] `platforms/exe-dev.md`
+### 클라우드 플랫폼 ✅
+- [x] `platforms/digitalocean.md`
+- [x] `platforms/fly.md`
+- [x] `platforms/gcp.md`
+- [x] `platforms/hetzner.md`
+- [x] `platforms/oracle.md`
+- [x] `platforms/exe-dev.md`
 
 ## 우선순위 5: CLI 명령어
 
