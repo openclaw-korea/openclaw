@@ -1,7 +1,7 @@
 # ko-KR 번역 현황
 
 총 문서: **298개**
-번역 완료: **178개** (59.7%)
+번역 완료: **189개** (63.4%)
 마지막 업데이트: 2026-02-05
 
 ## 우선순위 1: 핵심 문서 (필수) ✅
@@ -236,18 +236,18 @@
 - [x] `help/faq.md` - FAQ
 - [x] `help/troubleshooting.md` - 문제 해결
 
-### 기타 문서 (일부 완료)
-- [ ] `hooks.md` - 훅
-- [ ] `environment.md` - 환경
-- [ ] `debugging.md` - 디버깅
-- [ ] `logging.md` - 로깅
-- [ ] `network.md` - 네트워크
-- [ ] `testing.md` - 테스팅
-- [ ] `scripts.md` - 스크립트
-- [ ] `plugin.md` - 플러그인
-- [ ] `tui.md` - TUI
-- [ ] `tts.md` - TTS
-- [ ] `vps.md` - VPS
+### 기타 문서 ✅
+- [x] `hooks.md` - 훅
+- [x] `environment.md` - 환경
+- [x] `debugging.md` - 디버깅
+- [x] `logging.md` - 로깅
+- [x] `network.md` - 네트워크
+- [x] `testing.md` - 테스팅
+- [x] `scripts.md` - 스크립트
+- [x] `plugin.md` - 플러그인
+- [x] `tui.md` - TUI
+- [x] `tts.md` - TTS
+- [x] `vps.md` - VPS
 
 ---
 
