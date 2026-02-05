@@ -1,253 +1,378 @@
 # ko-KR 번역 현황
 
-총 문서: **298개**
-번역 완료: **189개** (63.4%)
+총 문서: **300개**
+번역 완료: **300개** (100.0%)
+남은 문서: **0개**
 마지막 업데이트: 2026-02-05
 
-## 우선순위 1: 핵심 문서 (필수) ✅
+## .i18n
 
-### 개요 & 시작하기 ✅
-- [x] `index.md` - 랜딩 페이지
-- [x] `install/index.md` - 설치 가이드
-- [x] `start/getting-started.md` - 시작하기
-- [x] `start/wizard.md` - 온보딩 마법사
-- [x] `start/setup.md` - 설정
-- [x] `start/pairing.md` - 페어링
-- [x] `start/onboarding.md` - 온보딩
+- [x] `.i18n/README.md`
 
-### 핵심 개념 ✅
-- [x] `concepts/architecture.md` - 아키텍처
-- [x] `concepts/agent.md` - 에이전트
-- [x] `concepts/agent-loop.md` - 에이전트 루프
-- [x] `concepts/session.md` - 세션
-- [x] `concepts/context.md` - 컨텍스트
-- [x] `concepts/system-prompt.md` - 시스템 프롬프트
+## Automation
 
-## 우선순위 2: 채널 연동 (자주 사용) ✅
+- [x] `automation/auth-monitoring.md`
+- [x] `automation/cron-jobs.md`
+- [x] `automation/cron-vs-heartbeat.md`
+- [x] `automation/gmail-pubsub.md`
+- [x] `automation/poll.md`
+- [x] `automation/webhook.md`
 
-### 주요 채널 ✅
-- [x] `channels/index.md` - 채널 개요
-- [x] `channels/whatsapp.md` - WhatsApp
-- [x] `channels/telegram.md` - Telegram
-- [x] `channels/discord.md` - Discord
-- [x] `channels/slack.md` - Slack
-- [x] `channels/imessage.md` - iMessage
-- [x] `channels/signal.md` - Signal
+## Channels
 
-### 기타 채널 ✅
-- [x] `channels/mattermost.md` - Mattermost
-- [x] `channels/matrix.md` - Matrix
-- [x] `channels/googlechat.md` - Google Chat
-- [x] `channels/msteams.md` - MS Teams
-- [x] `channels/feishu.md` - Feishu
-- [x] `channels/line.md` - LINE
-- [x] `channels/grammy.md` - Grammy
-- [x] `channels/bluebubbles.md` - BlueBubbles
-- [x] `channels/nextcloud-talk.md` - Nextcloud Talk
-- [x] `channels/nostr.md` - Nostr
-- [x] `channels/tlon.md` - Tlon
-- [x] `channels/twitch.md` - Twitch
-- [x] `channels/zalo.md` - Zalo
-- [x] `channels/zalouser.md` - Zalo User
-- [x] `channels/location.md` - 위치
-- [x] `channels/troubleshooting.md` - 문제 해결
+- [x] `channels/bluebubbles.md`
+- [x] `channels/discord.md`
+- [x] `channels/feishu.md`
+- [x] `channels/googlechat.md`
+- [x] `channels/grammy.md`
+- [x] `channels/imessage.md`
+- [x] `channels/index.md`
+- [x] `channels/line.md`
+- [x] `channels/location.md`
+- [x] `channels/matrix.md`
+- [x] `channels/mattermost.md`
+- [x] `channels/msteams.md`
+- [x] `channels/nextcloud-talk.md`
+- [x] `channels/nostr.md`
+- [x] `channels/signal.md`
+- [x] `channels/slack.md`
+- [x] `channels/telegram.md`
+- [x] `channels/tlon.md`
+- [x] `channels/troubleshooting.md`
+- [x] `channels/twitch.md`
+- [x] `channels/whatsapp.md`
+- [x] `channels/zalo.md`
+- [x] `channels/zalouser.md`
 
-## 우선순위 3: 게이트웨이 & 설정
+## Cli
 
-### 게이트웨이
-- [x] `gateway/index.md` - 게이트웨이 개요
-- [x] `gateway/configuration.md` - 설정
-- [x] `gateway/configuration-examples.md` - 설정 예제
-- [x] `gateway/authentication.md` - 인증
-- [x] `gateway/security/index.md` - 보안
-- [x] `gateway/sandboxing.md` - 샌드박싱
-- [x] `gateway/remote.md` - 원격 접속
-- [x] `gateway/tailscale.md` - Tailscale
-- [x] `gateway/local-models.md` - 로컬 모델
-- [x] `gateway/logging.md` - 로깅
-- [x] `gateway/health.md` - 상태 확인
-- [x] `gateway/doctor.md` - 진단
-- [x] `gateway/troubleshooting.md` - 문제 해결
-- [x] `gateway/background-process.md` - 백그라운드 프로세스
-- [x] `gateway/discovery.md` - 디스커버리
-- [x] `gateway/heartbeat.md` - 하트비트
-- [x] `gateway/pairing.md` - 페어링
-- [x] `gateway/protocol.md` - 프로토콜
-- [x] `gateway/multiple-gateways.md` - 다중 게이트웨이
+- [x] `cli/acp.md`
+- [x] `cli/agent.md`
+- [x] `cli/agents.md`
+- [x] `cli/approvals.md`
+- [x] `cli/browser.md`
+- [x] `cli/channels.md`
+- [x] `cli/config.md`
+- [x] `cli/configure.md`
+- [x] `cli/cron.md`
+- [x] `cli/dashboard.md`
+- [x] `cli/devices.md`
+- [x] `cli/directory.md`
+- [x] `cli/dns.md`
+- [x] `cli/docs.md`
+- [x] `cli/doctor.md`
+- [x] `cli/gateway.md`
+- [x] `cli/health.md`
+- [x] `cli/hooks.md`
+- [x] `cli/index.md`
+- [x] `cli/logs.md`
+- [x] `cli/memory.md`
+- [x] `cli/message.md`
+- [x] `cli/models.md`
+- [x] `cli/node.md`
+- [x] `cli/nodes.md`
+- [x] `cli/onboard.md`
+- [x] `cli/pairing.md`
+- [x] `cli/plugins.md`
+- [x] `cli/reset.md`
+- [x] `cli/sandbox.md`
+- [x] `cli/security.md`
+- [x] `cli/sessions.md`
+- [x] `cli/setup.md`
+- [x] `cli/skills.md`
+- [x] `cli/status.md`
+- [x] `cli/system.md`
+- [x] `cli/tui.md`
+- [x] `cli/uninstall.md`
+- [x] `cli/update.md`
+- [x] `cli/voicecall.md`
+- [x] `cli/webhooks.md`
 
-## 우선순위 4: 플랫폼별 가이드 ✅
+## Concepts
 
-### 플랫폼 ✅
-- [x] `platforms/index.md` - 플랫폼 개요
-- [x] `platforms/macos.md` - macOS
-- [x] `platforms/linux.md` - Linux
-- [x] `platforms/windows.md` - Windows
-- [x] `platforms/android.md` - Android
-- [x] `platforms/ios.md` - iOS
-- [x] `platforms/raspberry-pi.md` - Raspberry Pi
+- [x] `concepts/agent-loop.md`
+- [x] `concepts/agent-workspace.md`
+- [x] `concepts/agent.md`
+- [x] `concepts/architecture.md`
+- [x] `concepts/channel-routing.md`
+- [x] `concepts/compaction.md`
+- [x] `concepts/context.md`
+- [x] `concepts/group-messages.md`
+- [x] `concepts/groups.md`
+- [x] `concepts/markdown-formatting.md`
+- [x] `concepts/memory.md`
+- [x] `concepts/messages.md`
+- [x] `concepts/model-failover.md`
+- [x] `concepts/model-providers.md`
+- [x] `concepts/models.md`
+- [x] `concepts/multi-agent.md`
+- [x] `concepts/oauth.md`
+- [x] `concepts/presence.md`
+- [x] `concepts/queue.md`
+- [x] `concepts/retry.md`
+- [x] `concepts/session-pruning.md`
+- [x] `concepts/session-tool.md`
+- [x] `concepts/session.md`
+- [x] `concepts/sessions.md`
+- [x] `concepts/streaming.md`
+- [x] `concepts/system-prompt.md`
+- [x] `concepts/timezone.md`
+- [x] `concepts/typebox.md`
+- [x] `concepts/typing-indicators.md`
+- [x] `concepts/usage-tracking.md`
 
-### macOS 세부 ✅
-- [x] `platforms/mac/bundled-gateway.md`
-- [x] `platforms/mac/canvas.md`
-- [x] `platforms/mac/dev-setup.md`
-- [x] `platforms/mac/health.md`
-- [x] `platforms/mac/logging.md`
-- [x] `platforms/mac/menu-bar.md`
-- [x] `platforms/mac/permissions.md`
-- [x] `platforms/mac/skills.md`
-- [x] `platforms/mac/voicewake.md`
-- [x] `platforms/mac/webchat.md`
+## Debug
 
-### 클라우드 플랫폼 ✅
+- [x] `debug/node-issue.md`
+
+## Diagnostics
+
+- [x] `diagnostics/flags.md`
+
+## Experiments
+
+- [x] `experiments/onboarding-config-protocol.md`
+- [x] `experiments/plans/cron-add-hardening.md`
+- [x] `experiments/plans/group-policy-hardening.md`
+- [x] `experiments/plans/openresponses-gateway.md`
+- [x] `experiments/proposals/model-config.md`
+- [x] `experiments/research/memory.md`
+
+## Gateway
+
+- [x] `gateway/authentication.md`
+- [x] `gateway/background-process.md`
+- [x] `gateway/bonjour.md`
+- [x] `gateway/bridge-protocol.md`
+- [x] `gateway/cli-backends.md`
+- [x] `gateway/configuration-examples.md`
+- [x] `gateway/configuration.md`
+- [x] `gateway/discovery.md`
+- [x] `gateway/doctor.md`
+- [x] `gateway/gateway-lock.md`
+- [x] `gateway/health.md`
+- [x] `gateway/heartbeat.md`
+- [x] `gateway/index.md`
+- [x] `gateway/local-models.md`
+- [x] `gateway/logging.md`
+- [x] `gateway/multiple-gateways.md`
+- [x] `gateway/openai-http-api.md`
+- [x] `gateway/openresponses-http-api.md`
+- [x] `gateway/pairing.md`
+- [x] `gateway/protocol.md`
+- [x] `gateway/remote-gateway-readme.md`
+- [x] `gateway/remote.md`
+- [x] `gateway/sandbox-vs-tool-policy-vs-elevated.md`
+- [x] `gateway/sandboxing.md`
+- [x] `gateway/security/formal-verification.md`
+- [x] `gateway/security/index.md`
+- [x] `gateway/tailscale.md`
+- [x] `gateway/tools-invoke-http-api.md`
+- [x] `gateway/troubleshooting.md`
+
+## Help
+
+- [x] `help/faq.md`
+- [x] `help/index.md`
+- [x] `help/troubleshooting.md`
+
+## Hooks
+
+- [x] `hooks/soul-evil.md`
+
+## Install
+
+- [x] `install/ansible.md`
+- [x] `install/bun.md`
+- [x] `install/development-channels.md`
+- [x] `install/docker.md`
+- [x] `install/index.md`
+- [x] `install/installer.md`
+- [x] `install/migrating.md`
+- [x] `install/nix.md`
+- [x] `install/node.md`
+- [x] `install/uninstall.md`
+- [x] `install/updating.md`
+
+## Nodes
+
+- [x] `nodes/audio.md`
+- [x] `nodes/camera.md`
+- [x] `nodes/images.md`
+- [x] `nodes/index.md`
+- [x] `nodes/location-command.md`
+- [x] `nodes/media-understanding.md`
+- [x] `nodes/talk.md`
+- [x] `nodes/voicewake.md`
+
+## Platforms
+
+- [x] `platforms/android.md`
 - [x] `platforms/digitalocean.md`
+- [x] `platforms/exe-dev.md`
 - [x] `platforms/fly.md`
 - [x] `platforms/gcp.md`
 - [x] `platforms/hetzner.md`
+- [x] `platforms/index.md`
+- [x] `platforms/ios.md`
+- [x] `platforms/linux.md`
+- [x] `platforms/mac/bundled-gateway.md`
+- [x] `platforms/mac/canvas.md`
+- [x] `platforms/mac/child-process.md`
+- [x] `platforms/mac/dev-setup.md`
+- [x] `platforms/mac/health.md`
+- [x] `platforms/mac/icon.md`
+- [x] `platforms/mac/logging.md`
+- [x] `platforms/mac/menu-bar.md`
+- [x] `platforms/mac/peekaboo.md`
+- [x] `platforms/mac/permissions.md`
+- [x] `platforms/mac/release.md`
+- [x] `platforms/mac/remote.md`
+- [x] `platforms/mac/signing.md`
+- [x] `platforms/mac/skills.md`
+- [x] `platforms/mac/voice-overlay.md`
+- [x] `platforms/mac/voicewake.md`
+- [x] `platforms/mac/webchat.md`
+- [x] `platforms/mac/xpc.md`
+- [x] `platforms/macos-vm.md`
+- [x] `platforms/macos.md`
 - [x] `platforms/oracle.md`
-- [x] `platforms/exe-dev.md`
+- [x] `platforms/raspberry-pi.md`
+- [x] `platforms/windows.md`
 
-## 우선순위 5: CLI 명령어 ✅
+## Plugins
 
-### CLI ✅
-- [x] `cli/index.md` - CLI 개요
-- [x] `cli/gateway.md` - gateway
-- [x] `cli/status.md` - status
-- [x] `cli/health.md` - health
-- [x] `cli/config.md` - config
-- [x] `cli/onboard.md` - onboard
-- [x] `cli/channels.md` - channels
-- [x] `cli/pairing.md` - pairing
-- [x] `cli/message.md` - message
-- [x] `cli/agent.md` - agent
-- [x] `cli/agents.md` - agents
-- [x] `cli/sessions.md` - sessions
-- [x] `cli/memory.md` - memory
-- [x] `cli/logs.md` - logs
-- [x] `cli/doctor.md` - doctor
-- [x] `cli/sandbox.md` - sandbox
-- [x] `cli/security.md` - security
-- [x] `cli/skills.md` - skills
-- [x] `cli/models.md` - models
-- [x] `cli/plugins.md` - plugins
-- [x] `cli/nodes.md` - nodes
-- [x] `cli/dashboard.md` - dashboard
-- [x] `cli/browser.md` - browser
-- [x] `cli/hooks.md` - hooks
-- [x] `cli/cron.md` - cron
-- [x] `cli/webhooks.md` - webhooks
-- [x] `cli/tui.md` - TUI
-- [x] `cli/update.md` - update
-- [x] `cli/uninstall.md` - uninstall
-- [x] `cli/reset.md` - reset
+- [x] `plugins/agent-tools.md`
+- [x] `plugins/manifest.md`
+- [x] `plugins/voice-call.md`
+- [x] `plugins/zalouser.md`
 
-## 우선순위 6: 도구 & 스킬 ✅
+## Providers
 
-### 도구 ✅
-- [x] `tools/index.md` - 도구 개요
-- [x] `tools/skills.md` - 스킬
-- [x] `tools/skills-config.md` - 스킬 설정
-- [x] `tools/creating-skills.md` - 스킬 만들기
-- [x] `tools/browser.md` - 브라우저
-- [x] `tools/web.md` - 웹
-- [x] `tools/exec.md` - 실행
-- [x] `tools/exec-approvals.md` - 실행 승인
-- [x] `tools/elevated.md` - 권한 상승
-- [x] `tools/thinking.md` - 사고
-- [x] `tools/subagents.md` - 서브에이전트
-- [x] `tools/slash-commands.md` - 슬래시 명령
-- [x] `tools/reactions.md` - 반응
+- [x] `providers/anthropic.md`
+- [x] `providers/claude-max-api-proxy.md`
+- [x] `providers/deepgram.md`
+- [x] `providers/github-copilot.md`
+- [x] `providers/glm.md`
+- [x] `providers/index.md`
+- [x] `providers/minimax.md`
+- [x] `providers/models.md`
+- [x] `providers/moonshot.md`
+- [x] `providers/ollama.md`
+- [x] `providers/openai.md`
+- [x] `providers/opencode.md`
+- [x] `providers/openrouter.md`
+- [x] `providers/qwen.md`
+- [x] `providers/synthetic.md`
+- [x] `providers/venice.md`
+- [x] `providers/vercel-ai-gateway.md`
+- [x] `providers/xiaomi.md`
+- [x] `providers/zai.md`
 
-## 우선순위 7: 프로바이더 ✅
+## Refactor
 
-### 프로바이더 ✅
-- [x] `providers/index.md` - 프로바이더 개요
-- [x] `providers/anthropic.md` - Anthropic
-- [x] `providers/openai.md` - OpenAI
-- [x] `providers/ollama.md` - Ollama
-- [x] `providers/openrouter.md` - OpenRouter
-- [x] `providers/models.md` - 모델
-- [x] `providers/moonshot.md` - Moonshot
-- [x] `providers/qwen.md` - Qwen
-- [x] `providers/glm.md` - GLM
-- [x] `providers/minimax.md` - MiniMax
-- [x] `providers/deepgram.md` - Deepgram
+- [x] `refactor/clawnet.md`
+- [x] `refactor/exec-host.md`
+- [x] `refactor/outbound-session-mirroring.md`
+- [x] `refactor/plugin-sdk.md`
+- [x] `refactor/strict-config.md`
 
-## 우선순위 8: 개념 (추가) ✅
+## Reference
 
-### 추가 개념 ✅
-- [x] `concepts/agent-workspace.md` - 에이전트 워크스페이스
-- [x] `concepts/channel-routing.md` - 채널 라우팅
-- [x] `concepts/compaction.md` - 컴팩션
-- [x] `concepts/group-messages.md` - 그룹 메시지
-- [x] `concepts/groups.md` - 그룹
-- [x] `concepts/memory.md` - 메모리
-- [x] `concepts/messages.md` - 메시지
-- [x] `concepts/model-failover.md` - 모델 페일오버
-- [x] `concepts/model-providers.md` - 모델 프로바이더
-- [x] `concepts/models.md` - 모델
-- [x] `concepts/multi-agent.md` - 멀티 에이전트
-- [x] `concepts/oauth.md` - OAuth
-- [x] `concepts/presence.md` - 프레즌스
-- [x] `concepts/queue.md` - 큐
-- [x] `concepts/retry.md` - 재시도
-- [x] `concepts/sessions.md` - 세션들
-- [x] `concepts/streaming.md` - 스트리밍
-- [x] `concepts/typing-indicators.md` - 타이핑 표시
+- [x] `reference/AGENTS.default.md`
+- [x] `reference/RELEASING.md`
+- [x] `reference/api-usage-costs.md`
+- [x] `reference/device-models.md`
+- [x] `reference/rpc.md`
+- [x] `reference/session-management-compaction.md`
+- [x] `reference/templates/AGENTS.dev.md`
+- [x] `reference/templates/AGENTS.md`
+- [x] `reference/templates/BOOT.md`
+- [x] `reference/templates/BOOTSTRAP.md`
+- [x] `reference/templates/HEARTBEAT.md`
+- [x] `reference/templates/IDENTITY.dev.md`
+- [x] `reference/templates/IDENTITY.md`
+- [x] `reference/templates/SOUL.dev.md`
+- [x] `reference/templates/SOUL.md`
+- [x] `reference/templates/TOOLS.dev.md`
+- [x] `reference/templates/TOOLS.md`
+- [x] `reference/templates/USER.dev.md`
+- [x] `reference/templates/USER.md`
+- [x] `reference/test.md`
+- [x] `reference/transcript-hygiene.md`
 
-## 우선순위 9: 설치 (추가) ✅
+## Security
 
-### 설치 옵션 ✅
-- [x] `install/installer.md` - 설치 스크립트 상세
-- [x] `install/docker.md` - Docker
-- [x] `install/nix.md` - Nix
-- [x] `install/ansible.md` - Ansible
-- [x] `install/bun.md` - Bun
-- [x] `install/node.md` - Node
-- [x] `install/updating.md` - 업데이트
-- [x] `install/uninstall.md` - 제거
-- [x] `install/migrating.md` - 마이그레이션
-- [x] `install/development-channels.md` - 개발 채널
+- [x] `security/formal-verification.md`
 
-## 우선순위 10: 기타 (진행 중)
+## Start
 
-### 자동화 ✅
-- [x] `automation/cron-jobs.md` - Cron 작업
-- [x] `automation/webhook.md` - 웹훅
-- [x] `automation/poll.md` - 폴링
-- [x] `automation/auth-monitoring.md` - 인증 모니터링
-- [x] `automation/gmail-pubsub.md` - Gmail PubSub
+- [x] `start/getting-started.md`
+- [x] `start/hubs.md`
+- [x] `start/lore.md`
+- [x] `start/onboarding.md`
+- [x] `start/openclaw.md`
+- [x] `start/pairing.md`
+- [x] `start/setup.md`
+- [x] `start/showcase.md`
+- [x] `start/wizard.md`
 
-### 노드 ✅
-- [x] `nodes/index.md` - 노드 개요
-- [x] `nodes/audio.md` - 오디오
-- [x] `nodes/camera.md` - 카메라
-- [x] `nodes/images.md` - 이미지
-- [x] `nodes/voicewake.md` - 음성 웨이크
-- [x] `nodes/talk.md` - 토크
+## Tools
 
-### 웹 ✅
-- [x] `web/index.md` - 웹 개요
-- [x] `web/dashboard.md` - 대시보드
-- [x] `web/control-ui.md` - Control UI
-- [x] `web/webchat.md` - 웹챗
+- [x] `tools/agent-send.md`
+- [x] `tools/apply-patch.md`
+- [x] `tools/browser-linux-troubleshooting.md`
+- [x] `tools/browser-login.md`
+- [x] `tools/browser.md`
+- [x] `tools/chrome-extension.md`
+- [x] `tools/clawhub.md`
+- [x] `tools/creating-skills.md`
+- [x] `tools/elevated.md`
+- [x] `tools/exec-approvals.md`
+- [x] `tools/exec.md`
+- [x] `tools/firecrawl.md`
+- [x] `tools/index.md`
+- [x] `tools/llm-task.md`
+- [x] `tools/lobster.md`
+- [x] `tools/reactions.md`
+- [x] `tools/skills-config.md`
+- [x] `tools/skills.md`
+- [x] `tools/slash-commands.md`
+- [x] `tools/subagents.md`
+- [x] `tools/thinking.md`
+- [x] `tools/web.md`
 
-### 도움말 ✅
-- [x] `help/index.md` - 도움말 개요
-- [x] `help/faq.md` - FAQ
-- [x] `help/troubleshooting.md` - 문제 해결
+## Web
 
-### 기타 문서 ✅
-- [x] `hooks.md` - 훅
-- [x] `environment.md` - 환경
-- [x] `debugging.md` - 디버깅
-- [x] `logging.md` - 로깅
-- [x] `network.md` - 네트워크
-- [x] `testing.md` - 테스팅
-- [x] `scripts.md` - 스크립트
-- [x] `plugin.md` - 플러그인
-- [x] `tui.md` - TUI
-- [x] `tts.md` - TTS
-- [x] `vps.md` - VPS
+- [x] `web/control-ui.md`
+- [x] `web/dashboard.md`
+- [x] `web/index.md`
+- [x] `web/webchat.md`
+
+## Root Files
+
+- [x] `bedrock.md`
+- [x] `brave-search.md`
+- [x] `broadcast-groups.md`
+- [x] `date-time.md`
+- [x] `debugging.md`
+- [x] `environment.md`
+- [x] `hooks.md`
+- [x] `index.md`
+- [x] `logging.md`
+- [x] `multi-agent-sandbox-tools.md`
+- [x] `network.md`
+- [x] `perplexity.md`
+- [x] `pi-dev.md`
+- [x] `pi.md`
+- [x] `plugin.md`
+- [x] `prose.md`
+- [x] `scripts.md`
+- [x] `testing.md`
+- [x] `token-use.md`
+- [x] `tts.md`
+- [x] `tui.md`
+- [x] `vps.md`
 
 ---
 
