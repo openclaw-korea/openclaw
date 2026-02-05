@@ -1,7 +1,7 @@
 # ko-KR 번역 현황
 
 총 문서: **298개**
-번역 완료: **132개** (44.3%)
+번역 완료: **160개** (53.7%)
 마지막 업데이트: 2026-02-05
 
 ## 우선순위 1: 핵심 문서 (필수) ✅
@@ -172,41 +172,41 @@
 - [x] `providers/minimax.md` - MiniMax
 - [x] `providers/deepgram.md` - Deepgram
 
-## 우선순위 8: 개념 (추가)
+## 우선순위 8: 개념 (추가) ✅
 
-### 추가 개념
-- [ ] `concepts/agent-workspace.md` - 에이전트 워크스페이스
-- [ ] `concepts/channel-routing.md` - 채널 라우팅
-- [ ] `concepts/compaction.md` - 컴팩션
-- [ ] `concepts/group-messages.md` - 그룹 메시지
-- [ ] `concepts/groups.md` - 그룹
-- [ ] `concepts/memory.md` - 메모리
-- [ ] `concepts/messages.md` - 메시지
-- [ ] `concepts/model-failover.md` - 모델 페일오버
-- [ ] `concepts/model-providers.md` - 모델 프로바이더
-- [ ] `concepts/models.md` - 모델
-- [ ] `concepts/multi-agent.md` - 멀티 에이전트
-- [ ] `concepts/oauth.md` - OAuth
-- [ ] `concepts/presence.md` - 프레즌스
-- [ ] `concepts/queue.md` - 큐
-- [ ] `concepts/retry.md` - 재시도
-- [ ] `concepts/sessions.md` - 세션들
-- [ ] `concepts/streaming.md` - 스트리밍
-- [ ] `concepts/typing-indicators.md` - 타이핑 표시
+### 추가 개념 ✅
+- [x] `concepts/agent-workspace.md` - 에이전트 워크스페이스
+- [x] `concepts/channel-routing.md` - 채널 라우팅
+- [x] `concepts/compaction.md` - 컴팩션
+- [x] `concepts/group-messages.md` - 그룹 메시지
+- [x] `concepts/groups.md` - 그룹
+- [x] `concepts/memory.md` - 메모리
+- [x] `concepts/messages.md` - 메시지
+- [x] `concepts/model-failover.md` - 모델 페일오버
+- [x] `concepts/model-providers.md` - 모델 프로바이더
+- [x] `concepts/models.md` - 모델
+- [x] `concepts/multi-agent.md` - 멀티 에이전트
+- [x] `concepts/oauth.md` - OAuth
+- [x] `concepts/presence.md` - 프레즌스
+- [x] `concepts/queue.md` - 큐
+- [x] `concepts/retry.md` - 재시도
+- [x] `concepts/sessions.md` - 세션들
+- [x] `concepts/streaming.md` - 스트리밍
+- [x] `concepts/typing-indicators.md` - 타이핑 표시
 
-## 우선순위 9: 설치 (추가)
+## 우선순위 9: 설치 (추가) ✅
 
-### 설치 옵션
-- [ ] `install/installer.md` - 설치 스크립트 상세
-- [ ] `install/docker.md` - Docker
-- [ ] `install/nix.md` - Nix
-- [ ] `install/ansible.md` - Ansible
-- [ ] `install/bun.md` - Bun
-- [ ] `install/node.md` - Node
-- [ ] `install/updating.md` - 업데이트
-- [ ] `install/uninstall.md` - 제거
-- [ ] `install/migrating.md` - 마이그레이션
-- [ ] `install/development-channels.md` - 개발 채널
+### 설치 옵션 ✅
+- [x] `install/installer.md` - 설치 스크립트 상세
+- [x] `install/docker.md` - Docker
+- [x] `install/nix.md` - Nix
+- [x] `install/ansible.md` - Ansible
+- [x] `install/bun.md` - Bun
+- [x] `install/node.md` - Node
+- [x] `install/updating.md` - 업데이트
+- [x] `install/uninstall.md` - 제거
+- [x] `install/migrating.md` - 마이그레이션
+- [x] `install/development-channels.md` - 개발 채널
 
 ## 우선순위 10: 기타
 
