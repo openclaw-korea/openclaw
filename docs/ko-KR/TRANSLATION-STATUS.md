@@ -1,7 +1,7 @@
 # ko-KR 번역 현황
 
 총 문서: **298개**
-번역 완료: **30개** (10.1%)
+번역 완료: **39개** (13.1%)
 마지막 업데이트: 2026-02-05
 
 ## 우선순위 1: 핵심 문서 (필수) ✅
@@ -60,20 +60,20 @@
 - [ ] `gateway/configuration-examples.md` - 설정 예제
 - [x] `gateway/authentication.md` - 인증
 - [ ] `gateway/security/index.md` - 보안
-- [ ] `gateway/sandboxing.md` - 샌드박싱
-- [ ] `gateway/remote.md` - 원격 접속
-- [ ] `gateway/tailscale.md` - Tailscale
+- [x] `gateway/sandboxing.md` - 샌드박싱
+- [x] `gateway/remote.md` - 원격 접속
+- [x] `gateway/tailscale.md` - Tailscale
 - [x] `gateway/local-models.md` - 로컬 모델
 - [x] `gateway/logging.md` - 로깅
 - [x] `gateway/health.md` - 상태 확인
 - [x] `gateway/doctor.md` - 진단
 - [ ] `gateway/troubleshooting.md` - 문제 해결
-- [ ] `gateway/background-process.md` - 백그라운드 프로세스
-- [ ] `gateway/discovery.md` - 디스커버리
-- [ ] `gateway/heartbeat.md` - 하트비트
-- [ ] `gateway/pairing.md` - 페어링
-- [ ] `gateway/protocol.md` - 프로토콜
-- [ ] `gateway/multiple-gateways.md` - 다중 게이트웨이
+- [x] `gateway/background-process.md` - 백그라운드 프로세스
+- [x] `gateway/discovery.md` - 디스커버리
+- [x] `gateway/heartbeat.md` - 하트비트
+- [x] `gateway/pairing.md` - 페어링
+- [x] `gateway/protocol.md` - 프로토콜
+- [x] `gateway/multiple-gateways.md` - 다중 게이트웨이
 
 ## 우선순위 4: 플랫폼별 가이드
 
