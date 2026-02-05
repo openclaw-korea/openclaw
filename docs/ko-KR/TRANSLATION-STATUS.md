@@ -1,7 +1,7 @@
 # ko-KR 번역 현황
 
 총 문서: **298개**
-번역 완료: **62개** (20.8%)
+번역 완료: **92개** (30.9%)
 마지막 업데이트: 2026-02-05
 
 ## 우선순위 1: 핵심 문서 (필수) ✅
@@ -106,39 +106,39 @@
 - [x] `platforms/oracle.md`
 - [x] `platforms/exe-dev.md`
 
-## 우선순위 5: CLI 명령어
+## 우선순위 5: CLI 명령어 ✅
 
-### CLI
-- [ ] `cli/index.md` - CLI 개요
-- [ ] `cli/gateway.md` - gateway
-- [ ] `cli/status.md` - status
-- [ ] `cli/health.md` - health
-- [ ] `cli/config.md` - config
-- [ ] `cli/onboard.md` - onboard
-- [ ] `cli/channels.md` - channels
-- [ ] `cli/pairing.md` - pairing
-- [ ] `cli/message.md` - message
-- [ ] `cli/agent.md` - agent
-- [ ] `cli/agents.md` - agents
-- [ ] `cli/sessions.md` - sessions
-- [ ] `cli/memory.md` - memory
-- [ ] `cli/logs.md` - logs
-- [ ] `cli/doctor.md` - doctor
-- [ ] `cli/sandbox.md` - sandbox
-- [ ] `cli/security.md` - security
-- [ ] `cli/skills.md` - skills
-- [ ] `cli/models.md` - models
-- [ ] `cli/plugins.md` - plugins
-- [ ] `cli/nodes.md` - nodes
-- [ ] `cli/dashboard.md` - dashboard
-- [ ] `cli/browser.md` - browser
-- [ ] `cli/hooks.md` - hooks
-- [ ] `cli/cron.md` - cron
-- [ ] `cli/webhooks.md` - webhooks
-- [ ] `cli/tui.md` - TUI
-- [ ] `cli/update.md` - update
-- [ ] `cli/uninstall.md` - uninstall
-- [ ] `cli/reset.md` - reset
+### CLI ✅
+- [x] `cli/index.md` - CLI 개요
+- [x] `cli/gateway.md` - gateway
+- [x] `cli/status.md` - status
+- [x] `cli/health.md` - health
+- [x] `cli/config.md` - config
+- [x] `cli/onboard.md` - onboard
+- [x] `cli/channels.md` - channels
+- [x] `cli/pairing.md` - pairing
+- [x] `cli/message.md` - message
+- [x] `cli/agent.md` - agent
+- [x] `cli/agents.md` - agents
+- [x] `cli/sessions.md` - sessions
+- [x] `cli/memory.md` - memory
+- [x] `cli/logs.md` - logs
+- [x] `cli/doctor.md` - doctor
+- [x] `cli/sandbox.md` - sandbox
+- [x] `cli/security.md` - security
+- [x] `cli/skills.md` - skills
+- [x] `cli/models.md` - models
+- [x] `cli/plugins.md` - plugins
+- [x] `cli/nodes.md` - nodes
+- [x] `cli/dashboard.md` - dashboard
+- [x] `cli/browser.md` - browser
+- [x] `cli/hooks.md` - hooks
+- [x] `cli/cron.md` - cron
+- [x] `cli/webhooks.md` - webhooks
+- [x] `cli/tui.md` - TUI
+- [x] `cli/update.md` - update
+- [x] `cli/uninstall.md` - uninstall
+- [x] `cli/reset.md` - reset
 
 ## 우선순위 6: 도구 & 스킬
 
