@@ -126,17 +126,25 @@ go run scripts/docs-i18n/main.go -lang ko-KR -mode doc docs/**/*.md
    - remote, tailscale, sandboxing, protocol, heartbeat
 4. [x] 번역 현황: 30개 → 39개 (13.1%)
 5. [x] 커밋: 21f4ed7dd
+6. [x] **병렬 Task tool 활용** 우선순위 3 게이트웨이 나머지 4개 번역 완료
+   - configuration.md (3,389줄 → 3,372줄)
+   - configuration-examples.md
+   - security/index.md (816줄 → 770줄)
+   - troubleshooting.md
+   - 방법: Task tool로 4개 에이전트를 병렬 실행 (maxTokens: 32000)
+7. [x] 번역 현황: 39개 → 43개 (14.4%)
+8. [x] TRANSLATION-STATUS.md 업데이트
 
 ## 생성된 파일
 
 ```
-docs/.i18n/glossary.ko-KR.json     # 한국어 용어집
+docs/.i18n/glossary.ko-KR.json     # 한국어 용어집 (406 entries)
 docs/ko-KR/AGENTS.md               # 유지보수 가이드
 docs/ko-KR/index.md                # 랜딩 페이지
 scripts/docs-i18n/translator.go   # 한국어 번역 규칙 추가
 docs/docs.json                     # ko-KR 탭 추가
 
-# 2026-02-05 추가
+# 2026-02-05 추가 (우선순위 3 게이트웨이)
 docs/ko-KR/gateway/background-process.md
 docs/ko-KR/gateway/pairing.md
 docs/ko-KR/gateway/multiple-gateways.md
@@ -146,14 +154,36 @@ docs/ko-KR/gateway/tailscale.md
 docs/ko-KR/gateway/sandboxing.md
 docs/ko-KR/gateway/protocol.md
 docs/ko-KR/gateway/heartbeat.md
+docs/ko-KR/gateway/configuration.md         # 3,372줄 (병렬 Task tool)
+docs/ko-KR/gateway/configuration-examples.md
+docs/ko-KR/gateway/security/index.md        # 770줄
+docs/ko-KR/gateway/troubleshooting.md
 ```
+
+## 번역 방법론
+
+### 1. 파이프라인 방식 (작동 불가)
+```bash
+go run scripts/docs-i18n/main.go -lang ko-KR -mode doc docs/**/*.md
+```
+- 문제: Anthropic API 타임아웃 (대용량 파일)
+- 상태: 사용 중단
+
+### 2. 병렬 Task tool 방식 (현재 사용)
+```bash
+# Claude Code에서 Task tool 병렬 실행
+Task(subagent_type="general-purpose", parallel=4)
+```
+- 장점: 대용량 파일 처리 가능, 병렬 실행으로 속도 향상
+- 설정: maxTokens: 32000 (기존 25000에서 증가)
+- 결과: configuration.md (3,389줄) 완료
 
 ## 다음 단계
 
 1. [ ] Issue #3460에서 ko-KR 공식 승인 대기
-2. [x] ~~`@mariozechner/pi-coding-agent` 설치 후 번역 파이프라인 테스트~~ → 작동 불가 (수동 번역으로 전환)
-3. [진행 중] 핵심 문서 번역
+2. [x] ~~`@mariozechner/pi-coding-agent` 설치 후 번역 파이프라인 테스트~~ → 작동 불가
+3. [x] 핵심 문서 번역
    - [x] 우선순위 1, 2 완료
-   - [진행 중] 우선순위 3 게이트웨이 (9/13 완료, 4개 남음)
-4. [ ] 우선순위 3 게이트웨이 나머지 4개 완료
+   - [x] 우선순위 3 게이트웨이 완료 (13/13)
+4. [ ] 우선순위 4-10 문서 번역 계속
 5. [ ] PR 제출
