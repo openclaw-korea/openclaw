@@ -1,7 +1,7 @@
 # ko-KR 번역 현황
 
 총 문서: **298개**
-번역 완료: **116개** (38.9%)
+번역 완료: **132개** (44.3%)
 마지막 업데이트: 2026-02-05
 
 ## 우선순위 1: 핵심 문서 (필수) ✅
@@ -23,7 +23,7 @@
 - [x] `concepts/context.md` - 컨텍스트
 - [x] `concepts/system-prompt.md` - 시스템 프롬프트
 
-## 우선순위 2: 채널 연동 (자주 사용)
+## 우선순위 2: 채널 연동 (자주 사용) ✅
 
 ### 주요 채널 ✅
 - [x] `channels/index.md` - 채널 개요
@@ -34,23 +34,23 @@
 - [x] `channels/imessage.md` - iMessage
 - [x] `channels/signal.md` - Signal
 
-### 기타 채널
-- [ ] `channels/mattermost.md` - Mattermost
-- [ ] `channels/matrix.md` - Matrix
-- [ ] `channels/googlechat.md` - Google Chat
-- [ ] `channels/msteams.md` - MS Teams
-- [ ] `channels/feishu.md` - Feishu
-- [ ] `channels/line.md` - LINE
-- [ ] `channels/grammy.md` - Grammy
-- [ ] `channels/bluebubbles.md` - BlueBubbles
-- [ ] `channels/nextcloud-talk.md` - Nextcloud Talk
-- [ ] `channels/nostr.md` - Nostr
-- [ ] `channels/tlon.md` - Tlon
-- [ ] `channels/twitch.md` - Twitch
-- [ ] `channels/zalo.md` - Zalo
-- [ ] `channels/zalouser.md` - Zalo User
-- [ ] `channels/location.md` - 위치
-- [ ] `channels/troubleshooting.md` - 문제 해결
+### 기타 채널 ✅
+- [x] `channels/mattermost.md` - Mattermost
+- [x] `channels/matrix.md` - Matrix
+- [x] `channels/googlechat.md` - Google Chat
+- [x] `channels/msteams.md` - MS Teams
+- [x] `channels/feishu.md` - Feishu
+- [x] `channels/line.md` - LINE
+- [x] `channels/grammy.md` - Grammy
+- [x] `channels/bluebubbles.md` - BlueBubbles
+- [x] `channels/nextcloud-talk.md` - Nextcloud Talk
+- [x] `channels/nostr.md` - Nostr
+- [x] `channels/tlon.md` - Tlon
+- [x] `channels/twitch.md` - Twitch
+- [x] `channels/zalo.md` - Zalo
+- [x] `channels/zalouser.md` - Zalo User
+- [x] `channels/location.md` - 위치
+- [x] `channels/troubleshooting.md` - 문제 해결
 
 ## 우선순위 3: 게이트웨이 & 설정
 
