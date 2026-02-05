@@ -1,7 +1,7 @@
 # ko-KR 번역 현황
 
 총 문서: **298개**
-번역 완료: **92개** (30.9%)
+번역 완료: **116개** (38.9%)
 마지막 업데이트: 2026-02-05
 
 ## 우선순위 1: 핵심 문서 (필수) ✅
@@ -140,37 +140,37 @@
 - [x] `cli/uninstall.md` - uninstall
 - [x] `cli/reset.md` - reset
 
-## 우선순위 6: 도구 & 스킬
+## 우선순위 6: 도구 & 스킬 ✅
 
-### 도구
-- [ ] `tools/index.md` - 도구 개요
-- [ ] `tools/skills.md` - 스킬
-- [ ] `tools/skills-config.md` - 스킬 설정
-- [ ] `tools/creating-skills.md` - 스킬 만들기
-- [ ] `tools/browser.md` - 브라우저
-- [ ] `tools/web.md` - 웹
-- [ ] `tools/exec.md` - 실행
-- [ ] `tools/exec-approvals.md` - 실행 승인
-- [ ] `tools/elevated.md` - 권한 상승
-- [ ] `tools/thinking.md` - 사고
-- [ ] `tools/subagents.md` - 서브에이전트
-- [ ] `tools/slash-commands.md` - 슬래시 명령
-- [ ] `tools/reactions.md` - 반응
+### 도구 ✅
+- [x] `tools/index.md` - 도구 개요
+- [x] `tools/skills.md` - 스킬
+- [x] `tools/skills-config.md` - 스킬 설정
+- [x] `tools/creating-skills.md` - 스킬 만들기
+- [x] `tools/browser.md` - 브라우저
+- [x] `tools/web.md` - 웹
+- [x] `tools/exec.md` - 실행
+- [x] `tools/exec-approvals.md` - 실행 승인
+- [x] `tools/elevated.md` - 권한 상승
+- [x] `tools/thinking.md` - 사고
+- [x] `tools/subagents.md` - 서브에이전트
+- [x] `tools/slash-commands.md` - 슬래시 명령
+- [x] `tools/reactions.md` - 반응
 
-## 우선순위 7: 프로바이더
+## 우선순위 7: 프로바이더 ✅
 
-### 프로바이더
-- [ ] `providers/index.md` - 프로바이더 개요
-- [ ] `providers/anthropic.md` - Anthropic
-- [ ] `providers/openai.md` - OpenAI
-- [ ] `providers/ollama.md` - Ollama
-- [ ] `providers/openrouter.md` - OpenRouter
-- [ ] `providers/models.md` - 모델
-- [ ] `providers/moonshot.md` - Moonshot
-- [ ] `providers/qwen.md` - Qwen
-- [ ] `providers/glm.md` - GLM
-- [ ] `providers/minimax.md` - MiniMax
-- [ ] `providers/deepgram.md` - Deepgram
+### 프로바이더 ✅
+- [x] `providers/index.md` - 프로바이더 개요
+- [x] `providers/anthropic.md` - Anthropic
+- [x] `providers/openai.md` - OpenAI
+- [x] `providers/ollama.md` - Ollama
+- [x] `providers/openrouter.md` - OpenRouter
+- [x] `providers/models.md` - 모델
+- [x] `providers/moonshot.md` - Moonshot
+- [x] `providers/qwen.md` - Qwen
+- [x] `providers/glm.md` - GLM
+- [x] `providers/minimax.md` - MiniMax
+- [x] `providers/deepgram.md` - Deepgram
 
 ## 우선순위 8: 개념 (추가)
 
