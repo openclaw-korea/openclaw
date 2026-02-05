@@ -1,7 +1,7 @@
 # ko-KR 번역 현황
 
 총 문서: **298개**
-번역 완료: **26개** (8.7%)
+번역 완료: **30개** (10.1%)
 마지막 업데이트: 2026-02-05
 
 ## 우선순위 1: 핵심 문서 (필수) ✅
@@ -78,10 +78,10 @@
 ## 우선순위 4: 플랫폼별 가이드
 
 ### 플랫폼
-- [ ] `platforms/index.md` - 플랫폼 개요
-- [ ] `platforms/macos.md` - macOS
-- [ ] `platforms/linux.md` - Linux
-- [ ] `platforms/windows.md` - Windows
+- [x] `platforms/index.md` - 플랫폼 개요
+- [x] `platforms/macos.md` - macOS
+- [x] `platforms/linux.md` - Linux
+- [x] `platforms/windows.md` - Windows
 - [ ] `platforms/android.md` - Android
 - [ ] `platforms/ios.md` - iOS
 - [ ] `platforms/raspberry-pi.md` - Raspberry Pi
